@@ -1,0 +1,10 @@
+[package]
+name = "cosmic-applet-toggle-minimize-all"
+version = "0.1.0"
+edition = "2021"
+description = "COSMIC panel applet: toggle minimize/restore tracked windows"
+license = "MIT"
+
+[dependencies]
+libcosmic = { git = "https://github.com/pop-os/libcosmic.git", default-features = false, features = ["applet", "tokio", "wayland"] }
+thiserror = "2.0"

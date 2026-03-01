@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Toggle Minimize All
+Exec=/home/jsmkt/.local/bin/cosmic-applet-toggle-minimize-all
+Terminal=false
+Type=Application
+NoDisplay=false
+X-CosmicApplet=true
+X-OverflowPriority=0
+Icon=view-grid-symbolic
+Categories=COSMIC;Utility;
