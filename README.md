@@ -47,8 +47,5 @@ install -Dm644 data/com.example.CosmicShowDesktop.desktop \
 
 3. Ensure the `Exec=` line in the desktop entry points to your binary path (default in this repo uses `~/.local/bin/cosmic-applet-show-desktop`).
 
-## Project structure
 
-- `src/main.rs` - applet UI/button and application wiring
-- `src/wm.rs` - Wayland/COSMIC window management logic
-- `data/com.example.CosmicShowDesktop.desktop` - desktop/applet entry metadata
+thnk u codex ❤️❤️❤️
