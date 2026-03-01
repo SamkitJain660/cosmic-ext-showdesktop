@@ -1,8 +1,8 @@
 [package]
-name = "cosmic-applet-toggle-minimize-all"
+name = "cosmic-applet-show-desktop"
 version = "0.1.0"
 edition = "2021"
-description = "COSMIC panel applet: toggle minimize/restore tracked windows"
+description = "COSMIC panel applet: show desktop by minimizing/restoring tracked windows"
 license = "MIT"
 
 [dependencies]
