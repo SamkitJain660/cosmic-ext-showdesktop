@@ -54,7 +54,7 @@ impl WindowManager {
         let (request_tx, request_rx) = calloop::channel::channel::<Request>();
 
         thread::Builder::new()
-            .name("cosmic-toggle-minimize-wayland".to_string())
+            .name("cosmic-show-desktop-wayland".to_string())
             .spawn(move || {
                 let _ = wayland_handler(request_rx);
             })
@@ -347,7 +347,7 @@ fn should_manage_toplevel_values(identifier: &str, app_id: &str) -> bool {
     }
 
     if app_id.contains("cosmic-panel")
-        || app_id.contains("cosmic-applet-toggle-minimize-all")
+        || app_id.contains("cosmic-applet-show-desktop")
         || app_id.contains("cosmic-bg")
         || app_id.contains("cosmic-greeter")
     {
