@@ -23,12 +23,6 @@ Binary output:
 target/release/cosmic-ext-showdesktop
 ```
 
-## Run for testing
-
-```bash
-cargo run --release
-```
-
 ## Install (manual)
 
 1. Copy the binary:
@@ -53,5 +47,6 @@ command -v cosmic-ext-showdesktop
 
 If this prints nothing, either add `~/.local/bin` to your session `PATH` or install/symlink the binary into a global path such as `/usr/local/bin`.
 
+4. Add to panel/dock applets, go to settings>desktop> panel/dock > configure applets > add "Show Desktop"
 
 thnk u codex ❤️❤️❤️
