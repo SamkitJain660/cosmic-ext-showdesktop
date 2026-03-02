@@ -1,4 +1,4 @@
-# cosmic-applet-show-desktop
+# cosmic-ext-show-desktop
 
 A small COSMIC DE [Wayland session] panel applet that toggles all tracked windows between:
 - **Minimize all windows**
