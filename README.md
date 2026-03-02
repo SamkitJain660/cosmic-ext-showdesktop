@@ -45,7 +45,13 @@ install -Dm644 data/com.example.CosmicShowDesktop.desktop \
   ~/.local/share/applications/com.example.CosmicShowDesktop.desktop
 ```
 
-3. Ensure the `Exec=` line in the desktop entry points to your binary path (default in this repo uses `~/.local/bin/cosmic-ext-showdesktop`).
+3. Make sure the binary is in the `PATH` used by your COSMIC session:
+
+```bash
+command -v cosmic-ext-showdesktop
+```
+
+If this prints nothing, either add `~/.local/bin` to your session `PATH` or install/symlink the binary into a global path such as `/usr/local/bin`.
 
 
 thnk u codex ❤️❤️❤️

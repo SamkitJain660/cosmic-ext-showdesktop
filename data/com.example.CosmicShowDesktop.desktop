@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Show Desktop
-Exec=~/.local/bin/cosmic-ext-showdesktop
+Exec=cosmic-ext-showdesktop
 Terminal=false
 Type=Application
 NoDisplay=false
