@@ -1,4 +1,4 @@
-# cosmic-ext-show-desktop
+# cosmic-ext-showdesktop
 
 A small COSMIC DE [Wayland session] panel applet that toggles all tracked windows between:
 - **Minimize all windows**
@@ -20,7 +20,7 @@ cargo build --release
 Binary output:
 
 ```text
-target/release/cosmic-applet-show-desktop
+target/release/cosmic-ext-showdesktop
 ```
 
 ## Run for testing
@@ -34,8 +34,8 @@ cargo run --release
 1. Copy the binary:
 
 ```bash
-install -Dm755 target/release/cosmic-applet-show-desktop \
-  ~/.local/bin/cosmic-applet-show-desktop
+install -Dm755 target/release/cosmic-ext-showdesktop \
+  ~/.local/bin/cosmic-ext-showdesktop
 ```
 
 2. Install the desktop entry:
@@ -45,7 +45,7 @@ install -Dm644 data/com.example.CosmicShowDesktop.desktop \
   ~/.local/share/applications/com.example.CosmicShowDesktop.desktop
 ```
 
-3. Ensure the `Exec=` line in the desktop entry points to your binary path (default in this repo uses `~/.local/bin/cosmic-applet-show-desktop`).
+3. Ensure the `Exec=` line in the desktop entry points to your binary path (default in this repo uses `~/.local/bin/cosmic-ext-showdesktop`).
 
 
 thnk u codex ❤️❤️❤️

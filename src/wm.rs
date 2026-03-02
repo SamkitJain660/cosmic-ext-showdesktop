@@ -347,7 +347,7 @@ fn should_manage_toplevel_values(identifier: &str, app_id: &str) -> bool {
     }
 
     if app_id.contains("cosmic-panel")
-        || app_id.contains("cosmic-applet-show-desktop")
+        || app_id.contains("cosmic-ext-showdesktop")
         || app_id.contains("cosmic-bg")
         || app_id.contains("cosmic-greeter")
     {

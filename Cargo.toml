@@ -1,5 +1,5 @@
 [package]
-name = "cosmic-applet-show-desktop"
+name = "cosmic-ext-showdesktop"
 version = "0.1.0"
 edition = "2021"
 description = "COSMIC panel applet: show desktop by minimizing/restoring tracked windows"

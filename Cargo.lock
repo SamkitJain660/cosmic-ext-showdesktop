@@ -976,14 +976,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cosmic-applet-show-desktop"
-version = "0.1.0"
-dependencies = [
- "libcosmic",
- "thiserror 2.0.18",
-]
-
-[[package]]
 name = "cosmic-client-toolkit"
 version = "0.1.0"
 source = "git+https://github.com/pop-os/cosmic-protocols?rev=d0e95be#d0e95be25e423cfe523b11111a3666ed7aaf0dc4"
@@ -1024,6 +1016,14 @@ source = "git+https://github.com/pop-os/libcosmic.git#a37be90e811f365273bf632bf7
 dependencies = [
  "quote",
  "syn 2.0.117",
+]
+
+[[package]]
+name = "cosmic-ext-showdesktop"
+version = "0.1.0"
+dependencies = [
+ "libcosmic",
+ "thiserror 2.0.18",
 ]
 
 [[package]]
